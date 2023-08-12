@@ -1,0 +1,142 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(226, 221, 221);
+}
+header{
+    background-image: url(https://png.pngtree.com/png-clipart/20220419/original/pngtree-national-day-sports-shoes-promotion-rotation-banner-png-image_7535317.png);
+    margin-top: -50px;
+    height: 400px;
+    background-size: cover;
+    
+}
+
+#top{
+    height: 40px;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(270deg,red,black);
+    z-index: 2;
+    margin-top: -20px;
+}
+#top p{
+    text-align: center;
+    position: relative;
+    padding-top: 10px;
+}
+
+#nav{
+    display: flex;
+    background-color: black;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0px;
+    z-index: 3;
+}
+
+#bar{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin-left: 280px;
+}
+
+#search{
+    display: flex;
+    margin-right: 350px;
+}
+#search input{
+    width: 400px;
+}
+
+#search span{
+    margin-left: 5px;
+}
+
+#banner{
+    width: 60%;
+    height: 150px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin-left: 50px;
+    padding-top: 100px;
+
+}
+
+#category{
+    height: 210px;
+    width: 90%;
+    background-color: rgba(128, 128, 128, 0.696);
+    margin: auto;
+    margin-top: 25px;
+}
+#category h2{
+    color: rgb(53, 53, 53);
+    padding-top: 10px;
+    padding-left: 10px; 
+
+}
+#container{
+    display: flex;
+    align-items: start;
+    margin-top: -15px;
+}
+
+.shoes{
+    margin-left: 15px;
+    border: 1px solid rgb(71, 69, 69);
+    color: white;
+    height: 150px;
+    background-color: rgb(71, 69, 69);
+}
+
+.shoes img{
+    height: 125px;
+    width: 115px;
+}
+
+#content{
+    background: linear-gradient(90deg,rgb(71, 69, 69),black);
+    height: 600px;
+    margin-top: 20px;
+    padding-top: 100px;
+}
+
+#poster{
+    height: 500px;
+    width: 1250px;
+    background: linear-gradient(90deg,black,rgb(168, 41, 3));
+    margin: auto;
+    box-shadow: 0px 0px 9px  rgba(255, 255, 255, 0.445);
+    color: white;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+
+#poster p{
+    font-size: 1.1rem;
+    width: 500px;
+    margin-top: 10px;
+}
+
+#roundimg{
+    float: right;
+    margin-right: 20px;
+    
+}
+
+#roundimg img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 15px white;
+}
+#roundimg img:hover{
+    transform: scale(1.5);
+}
